@@ -1,8 +1,8 @@
 //
-//  LoginView.swift
+//  LemonRestaurant_ch4App.swift
 //  LemonRestaurant-ch4
 //
-//  Created by Ramone Hayes on 10/19/25.
+//  Created by RR HAYES on 10/16/25.
 //
 
 import SwiftUI
@@ -14,25 +14,25 @@ struct LoginView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Image("littleLemonLogo")
+                Image("littleLemonLogo")//view
                     .resizable()
                     .scaledToFit()
                     .frame(height:100)
                 
-                TextField("Enter your username:",text:$userName)
+                TextField("Enter your username:", text:$userName)//view
                     .textFieldStyle(.roundedBorder)
                     .padding()
                 
-                Button ("Login"){
-                    if userName == "Ramone"{
+                Button("Login"){//view
+                    if userName == "Sam"{
                         isLogged = true
                     }
                 }
             }
         }
     }
- }
-                
+}
+
 //#Preview {
 //    LoginView()
-//}                }
+//}

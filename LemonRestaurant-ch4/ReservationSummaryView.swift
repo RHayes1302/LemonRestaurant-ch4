@@ -1,11 +1,9 @@
 //
-//  ReservationSummaryView.swift
+//  LemonRestaurant_ch4App.swift
 //  LemonRestaurant-ch4
 //
-//  Created by Ramone Hayes on 10/21/25.
+//  Created by RR HAYES on 10/16/25.
 //
-
-import SwiftUI
 
 import SwiftUI
 
@@ -36,8 +34,7 @@ struct ReservationSummaryView: View {
         return formatter.string(from: date)
     }
 }
-
+//
 //#Preview {
 //    ReservationSummaryView()
 //}
-
